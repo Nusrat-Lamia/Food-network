@@ -1,54 +1,60 @@
-body{
-    font-family: "Poppins", sans-serif;
-    margin: 0px;
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.word-color{
-    color: orange;
+.word-color {
+  color: orange;
 }
 h1 {
-    font-size: 55px;
+  font-size: 50px;
+  margin: 10px 0;
 }
-.seize{
-    margin: 20px;
-}
-.order {
-    text-decoration: none;
-    color: white;
-    background-image: linear-gradient(orange, tomato);
-    font-weight: 700;
-    padding: 10px 40px;
-    border-radius: 20px;
-}
-.fexible-container{
-    display: flex;
-    width: 90%;
-    margin-bottom: 100px;
-}
-.half-width img{
-    width:80%;
-}
-.half-width{
-    width: 50%;
-    padding-left: 100px;
-    padding-top: 40px;
-    text-align: justify;
-}
-.newsize{
-    margin: 50px;
 
+.half-width p {
+  margin-bottom: 40px;
+  font-size: 20px;
 }
+
+.half-width a {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(orange, tomato);
+  font-weight: 700;
+  padding: 10px 40px;
+  border-radius: 20px;
+}
+.fexible-container {
+  display: flex;
+  align-items: center;
+  /* width: 90%; */
+  margin-bottom: 80px;
+}
+.half-width img {
+    width: 92%;
+    padding: 10px 15px;
+}
+.half-width {
+  width: 50%;
+  padding-left: 50px;
+  padding-top: 40px;
+  text-align: justify;
+}
+
 .exp-area {
-    background-image: url(images/bg.png);
-    background-repeat: no-repeat;   
+  background-image: url(images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.my-recipies{
-    text-align: center;
+.my-recipies {
+  text-align: center;
 }
-.food-img{
-    border-radius: 5px;
+.food-img {
+  border-radius: 5px;
 }
-.b-shadow{
-    width: 50%;
+.b-shadow {
+  width: 50%;
   box-shadow: 10px 10px 40px gray;
   margin-left: 5%;
   margin-right: 5%;
@@ -56,11 +62,23 @@ h1 {
   border-radius: 10px;
 }
 
+footer {
+  background-color: black;
+  text-align: center;
+  margin: 5px;
+  padding-top: 5px;
+  padding-bottom: 60px;
+}
 
-footer{
-    background-color: black;
-    text-align: center;
-    margin: 5px;
-    padding-top: 5px;
-    padding-bottom: 60px;
+.snd-title{
+    font-size: 30px;
+}
+
+.snd-text-width{
+    width: 600px;
+}
+
+.recipe-text{
+    font-size: 12px;
+    text-align: justify;
 }
